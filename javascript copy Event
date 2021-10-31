@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>javascript copy Event</title>
+</head>
+<body>
+
+
+<h3>Javascript is the most populer programming language in the world</h3>
+
+
+<script>
+    
+ var subHeding = document.querySelectorAll('h3');
+ subHeding[0].addEventListener("copy", js);
+
+ function js() {
+    var doNot = ["Do not copy this text","Do not copy this text"];
+    for(var i = 0; i < doNot.length ; i++) {
+        alert( doNot[i] );
+    }
+ }
+
+</script>
+
+</body>
+</html>
